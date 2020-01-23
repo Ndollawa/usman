@@ -1,0 +1,774 @@
+!DOCTYPE html>
+<html lang="en">
+<!-- BEGIN HEAD -->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta name="description" content="Responsive Admin unical Csc DEPARTMENT Website" />
+	<meta name="author" content="unical-csUniversity" />
+	<title>Unical-CS Department</title>
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+	<link href="fonts/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="fonts/material-design-icons/material-icon.css" rel="stylesheet" type="text/css" />
+	<!--bootstrap -->
+	<link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/plugins/summernote/summernote.css" rel="stylesheet">
+	<!-- Material Design Lite CSS -->
+	<link rel="stylesheet" href="../assets/plugins/material/material.min.css">
+	<link rel="stylesheet" href="../assets/css/material_style.css">
+	<!-- inbox style -->
+	<link href="../assets/css/pages/inbox.min.css" rel="stylesheet" type="text/css" />
+	<!-- Theme Styles -->
+	<link href="../assets/css/theme/full/theme_style.css" rel="stylesheet" id="rt_style_components" type="text/css" />
+	<link href="../assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/theme/full/style.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/theme/full/theme-color.css" rel="stylesheet" type="text/css" />
+<!-- full calendar -->
+	<link href="../assets/plugins/fullcalendar/fullcalendar.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/css/pages/about_us.css" rle"=stylesheet" type="text/css" />
+	<!-- favicon -->
+
+	<link rel="shortcut icon" href="http://radixtouch.in/templates/admin/unical-cs/source/assets/img/favicon.ico" />
+</head>
+<!-- END HEAD -->
+
+<body
+	class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md page-full-width header-white white-sidebar-color logo-indigo">
+	<div class="page-wrapper">
+		<!-- start header -->
+		<div class="page-header navbar navbar-fixed-top">
+			<div class="page-header-inner ">
+				<!-- logo start -->
+				<div class="page-logo">
+					<a href="index-2.html">
+
+						<img src="../assets/img/invoice_logo.png" alt="logo"
+							class="logo-default" />
+							<span class="logo-default">CS-Unical</span> </a>
+				</div>
+				<!-- logo end -->
+				<ul class="nav navbar-nav navbar-left in">
+					<li><a href="#" class="menu-toggler sidebar-toggler"><i class="icon-menu"></i></a></li>
+				</ul>
+				<form class="search-form-opened" action="#" method="GET">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search..." name="query">
+						<span class="input-group-btn">
+							<a href="javascript:;" class="btn submit">
+								<i class="icon-magnifier"></i>
+							</a>
+						</span>
+					</div>
+				</form>				<div class="login">
+				<ul class="nav navbar-nav navbar-right nav-login pull-right">
+					<li><a href="login.html">Login</a>
+					<a id="login" href="sign_up.html">Signup</a></li>
+				</ul>
+			</div>
+	</div>
+
+
+			<!-- start horizontal menu -->
+			<div class="navbar-custom">
+				<div class="hor-menu hidden-sm hidden-xs">
+						<ul class="nav navbar-nav">
+				<li class="mega-menu-dropdown ">
+							<a href="home_page.html" class="nav-link nav-toggle"><i class="fa fa-home"></i>
+								<span class="title">Home</span>
+							</a>
+						</li>
+							<ul class="dropdown-menu" style="min-width: 200px;">
+								<li>
+									<div class="mega-menu-content">
+										<div class="row">
+											<div class="col-md-12">
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+
+						<li class="classic-menu-dropdown mega-menu-dropdown">
+							<a href="#" class=" megamenu-dropdown" data-close-others="true">
+								<i class="fa fa-graduation-cap"></i> Academics
+								<i class="fa fa-angle-down"></i>
+								<span class="arrow "></span>
+							</a>
+							<ul class="dropdown-menu pull-left">
+								<li class="dropdown-submenu">
+								</li>
+								<li class="dropdown-submenu">
+									<a href="javascript:;">
+										<i class="fa fa-users"></i> Classes</a>
+										<ul class="dropdown-menu">
+											<li class="nav-item">
+												<a href="year1_courses.html" class="nav-link "> <span class="title">Year 1 Class</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a href="year2_courses.html" class="nav-link "> <span class="title">Year 2 Class</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a href="year3_class.html" class="nav-link "> <span class="title">Year 3 Class</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a href="year4_class.html" class="nav-link "> <span class="title">Year 4 Class</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a href="year5_class.html" class="nav-link "> <span class="title">Extra Year</span>
+												</a>
+											</li>
+										</ul>
+								</li>
+								<li class="dropdown-submenu">
+									<a href="javascript:;">
+										<i class="fa fa-graduation-cap" aria-hidden="true"></i> Courses</a>
+										<ul class="dropdown-menu">
+											<li class="nav-item">
+												<a href="year1_courses.html" class="nav-link "> <span class="title">100L
+													Courses</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a href="year2_courses.html" class="nav-link "> <span class="title">200L
+													Courses</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a href="year3_courses.html" class="nav-link "> <span class="title">300L Courses</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a href="year4_courses.html" class="nav-link "> <span class="title">400L Courses</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a href="year5_courses.html" class="nav-link "> <span class="title">Extra Year</span>
+												</a>
+											</li>
+										</ul>
+								</li>
+								<li class="dropdown">
+									<a href="course_allocation.html">
+										<i class="fa fa-file-o" aria-hidden="true"></i>Course Allocation</a>
+									<ul class="dropdown-menu">
+									</ul>
+								</li>
+								<li class="dropdown-submenu">
+									<a href="javascript:;">
+										<i class="fa fa-calendar-o"></i> Time Table</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="lecture_timetable.html" class="nav-link "> <span class="title">Lecture Time-table</span>
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="exam_timetable.html" class="nav-link "> <span class="title">Examination Time-table</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#">
+										<i class="fa fa-users" aria-hidden="true"></i> Other Academic Bodies</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+            <li class="mega-menu-dropdown ">
+      											<a href="#" class="dropdown-toggle"> 	<i class="fa fa-book"></i> E-Library
+      												<i class="fa fa-angle-down"></i>
+      												<span class="arrow "></span>
+      											</a>
+      											<ul class="dropdown-menu" style="min-width: 200px;">
+      												<li>
+      													<div class="mega-menu-content">
+      														<div class="row">
+      															<div class="col-md-12">
+      																<ul class="mega-menu-submenu">
+      																	<li>
+      																		<a href="tutorial_videos.html" class="nav-link "> <span class="title">Tutorial Videos</span></a>
+      																	</li>
+      																	<li>
+      																		<a href="e_books.html" class="nav-link "> <span class="title">E-books/PDF's</span></a>
+      																	</li>
+      																	<li>
+      																		<a href="pqp.html" class="nav-link "> <span class="title">Past Question Papers</span></a>
+      																	</li>
+      																	<li class="navbar-item">
+      							    	                <a href="handouts.html" class="nav-link "> <span class="title">Handouts</span>
+      							    	                </a>
+      							    								</li>
+      																</ul>
+      															</div>
+      														</div>
+      													</div>
+      												</li>
+      											</ul>
+      										</li>
+      					<li class="mega-menu-dropdown ">
+      						<a href="nacoss_ucc.html" class="nav-link nav-toggle"> <i class="fa fa-users"></i>
+      							<span class="title">NACOSS</span>
+      						</a>
+      			</li>
+      	<li class="mega-menu-dropdown ">
+      			<a href="#" class="dropdown-toggle"> <i class="fa fa-spinner"></i>
+      					  <span class="title">Explore</span>
+      							<i class="fa fa-angle-down"></i>
+      								<span class="arrow "></span>
+      								</a>
+      						<ul class="dropdown-menu" style="min-width: 200px;">
+      							<li>
+      								<div class="mega-menu-content">
+      							<div class="row">
+      					<div class="col-md-12">
+      						<ul class="mega-menu-submenu">
+      				<li>
+      			<a href="siwes.html" class="nav-link "> <span class="title">SIWES</span></a>
+      				</li>
+      		<li>
+      				<a href="Sport_unit.html" class="nav-link "> <span class="title">Sport Unit</span></a>
+      																	</li>
+      																	<li>
+      																		<a href="alumni.html" class="nav-link "> <span class="title">Alumni</span></a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="scholarships.html" class="nav-link ">
+      																			<span class="title">Scholarships and Grants</span>
+      																		</a>
+      																	</li>
+      																	<li class="navbar-item">
+      																		<a href="board.html" class="nav-link "> <span class="title">Board of Directors</span>
+      																		</a>
+      																	</li>
+      																</ul>
+      															</div>
+      														</div>
+      													</div>
+      												</li>
+      											</ul>
+      										</li>
+
+      										<li class="mega-menu-dropdown ">
+      											<a href="#" class="dropdown-toggle"> <i class="material-icons">people</i> Staff Connect
+      												<i class="fa fa-angle-down"></i>
+      											</a>
+      											<ul class="dropdown-menu" style="min-width: 100px;">
+      												<li>
+      													<div class="mega-menu-content">
+      														<div class="row">
+      															<div class="col-md-12">
+      																<ul class="mega-menu-submenu">
+      																	<li class="nav-item">
+      																		<a href="all_lecturers.html" class="nav-link ">
+      																			<span class="title">Academic</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="all_staffs" class="nav-link ">
+      																			<span class="title">Non Academic</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="appoinments.html" class="nav-link ">
+      																			<span class="title">Appointments</span>
+      																		</a>
+      																	</li>
+      																</ul>
+      															</div>
+      														</div>
+      													</div>
+      												</li>
+      											</ul>
+      										</li>
+      										<li class="mega-menu-dropdown ">
+      											<a href="#" class="dropdown-toggle"> <i class="material-icons">group-add</i>Partnership
+      												<i class="fa fa-angle-down"></i>
+      											</a>
+      											<ul class="dropdown-menu" style="min-width: 100px;">
+      												<li>
+      													<div class="mega-menu-content">
+      														<div class="row">
+      															<div class="col-md-12">
+      																<ul class="mega-menu-submenu">
+      																	<li class="nav-item">
+      																		<a href="devfest_unical.html" class="nav-link ">
+      																			<span class="title">DEVFEST</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="dsc_unical.html" class="nav-link ">
+      																			<span class="title">DSC UNICAL</span>
+      																		</a>
+      																	</li>
+      																</ul>
+      															</div>
+      														</div>
+      													</div>
+      												</li>
+      											</ul>
+      										</li>
+      										<li class="mega-menu-dropdown ">
+      											<a href="#" class="dropdown-toggle"> <i class="fa fa-headphones"></i> Entertainment
+      												<i class="fa fa-angle-down"></i>
+      											</a>
+      											<ul class="dropdown-menu" style="min-width: 200px;">
+      												<li>
+      													<div class="mega-menu-content">
+      														<div class="row">
+      															<div class="col-md-12">
+      																<ul class="mega-menu-submenu">
+      																	<li class="nav-item">
+      																		<a href="social_events.html" class="nav-link ">
+      																			<span class="title">Social Events</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="#" class="nav-link ">
+      																			<span class="title">Campus Live</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="campus_gossips.html" class="nav-link ">
+      																			<span class="title">Campus Gossips</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="fellowships.html" class="nav-link ">
+      																			<span class="title">Fellowships</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="sport_news.html" class="nav-link ">
+      																			<span class="title">Sport News</span>
+      																		</a>
+      																	</li>
+      																</ul>
+      															</div>
+      														</div>
+      													</div>
+      												</li>
+      											</ul>
+      										</li>
+      										<li class="mega-menu-dropdown ">
+      											<a href="#" class="dropdown-toggle"> <i class="fa fa-eye"></i> Visitors
+      												<i class="fa fa-angle-down"></i>
+      											</a>
+      											<ul class="dropdown-menu" style="min-width: 200px;">
+      												<li>
+      													<div class="mega-menu-content">
+      														<div class="row">
+      															<div class="col-md-12">
+      																<ul class="mega-menu-submenu">
+      																	<li class="nav-item  ">
+      																		<a href="about_us.html" class="nav-link "> <span class="title">About the Department</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item  ">
+      																		<a href="entry_info.html" class="nav-link "> <span class="title">Entry/Addmission Info</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item  ">
+      																		<a href="structure_of_programme.html" class="nav-link "> <span class="title">Structure of The Programme</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item"><a href="about_the_course.html" class="nav-link "><span class="title">About The course</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="carrers_in_csc.html" class="nav-link "> <span class="title">Careers In Computer Science</span>
+      																		</a>
+      																	</li>
+      																	<li class="nav-item">
+      																		<a href="contact_us.html" class="nav-link "> <span class="title">Contact Us</span>
+      																		</a>
+      																	</li>
+      																</ul>
+      															</div>
+      														</div>
+      													</div>
+      												</li>
+      											</ul>
+      										</li>
+      									</ul>
+      								</div>
+      							</div>
+			<!-- end horizontal menu -->
+		</div>
+		<!-- end header -->
+
+		<!-- start page container -->
+		<div class="page-container">
+			<!-- start sidebar menu -->
+			<div class="sidebar-container">
+				<div class="sidemenu-container navbar-collapse collapse fixed-menu">
+					<div id="remove-scroll" class="left-sidemenu">
+						<ul class="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false"
+							data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+							<li class="sidebar-toggler-wrapper hide">
+								<div class="sidebar-toggler">
+									<span></span>
+								</div>
+							</li>
+							</li>
+              <li class="nav-item start active open">
+                <a href="home_page.html" class="nav-link nav-toggle">
+                  <i class="fa fa-home"></i>
+                  <span class="title">Home</span>
+                  <span class="selected"></span>
+                </a>
+                  </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-toggle">	<i class="fa fa-users"></i> Classes
+                   <span class="arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                        <a href="year1_courses.html" class="nav-link "> <span class="title">Year 1 Class</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="year2_courses.html" class="nav-link "> <span class="title">Year 2 Class</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="year3_class.html" class="nav-link "> <span class="title">Year 3 Class</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="year4_class.html" class="nav-link "> <span class="title">Year 4 Class</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="year5_class.html" class="nav-link "> <span class="title">Extra Year</span>
+                        </a>
+                      </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-toggle"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Courses
+                  <span class="arrow"></span></a>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                        <a href="year1_courses.html" class="nav-link "> <span class="title">100L
+                          Courses</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="year2_courses.html" class="nav-link "> <span class="title">200L
+                          Courses</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="year3_courses.html" class="nav-link "> <span class="title">300L Courses</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="year4_courses.html" class="nav-link "> <span class="title">400L Courses</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="year5_courses.html" class="nav-link ">
+                           <span class="title">Extra Year</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="course_allocation.html" class="nav-link nav-toggle"> <i class="fa fa-file-o"></i>
+                  <span class="title">Course Allocation</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-toggle"> <i class="fa fa-calendar-o"></i>
+                  <span class="title">Timetable</span> <span class="arrow"></span>
+                  <span class="label label-rouded label-menu label-success">new</span>
+                </a>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                    <a href="lecture_timetable.html" class="nav-link "> <span class="title">Lecture Timetable</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="exam_timetable.html" class="nav-link "> <span class="title">Examination Timetable</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="other_academic_bodies.html" class="nav-link nav-toggle"> <i class="fa fa-users" aria-hidden="true"></i>
+                  <span class="title">Other Academic Bodies</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-toggle"> 	<i class="fa fa-books"></i>
+                  <span class="title">E-Library</span> <span class="arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+
+                                    <a href="tutorial_videos.html" class="nav-link "> <span class="title">Tutorial Videos</span></a>
+                                  </li>
+                                  <li>
+                                    <a href="e_books.html" class="nav-link "> <span class="title">E-books/PDF's</span></a>
+                                  </li>
+                                  <li>
+                                    <a href="pqp.html" class="nav-link "> <span class="title">Past Question Papers</span></a>
+                                  </li>
+                                  <li class="navbar-item">
+                               <a href="handouts.html" class="nav-link "> <span class="title">Handouts</span>
+                            </a>
+                        </li>
+                    </ul>
+              </li>
+              <li class="nav-item">
+              <a href="nacoss_ucc.html" class="nav-link nav-toggle"> <i class="fa fa-users"></i>
+              <span class="title">NACOSS</span></a>
+            </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-toggle">  <i class="fa fa-spinner"></i>
+            <span class="title">Explore</span> <span class="arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                    <a href="siwes.html" class="nav-link "> <span class="title">SIWES</span></a>
+                  </li>
+                  <li>
+                        <a href="Sport_unit.html" class="nav-link "> <span class="title">Sport Unit</span></a>
+                    </li>
+                      <li>
+                        <a href="alumni.html" class="nav-link "> <span class="title">Alumni</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a href="scholarships.html" class="nav-link ">
+                                    <span class="title">Scholarships and Grants</span>
+                                  </a>
+                                </li>
+                                <li class="navbar-item">
+                                  <a href="board.html" class="nav-link "> <span class="title">Board of Directors</span>
+                                  </a>
+                                </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-toggle">
+                  <i class="material-icons">people</i> Staff Connect <span class="arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                                    <a href="all_lecturers.html" class="nav-link ">
+                                      <span class="title">Academic</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="all_staffs" class="nav-link ">
+                                      <span class="title">Non Academic</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="appoinments.html" class="nav-link ">
+                                      <span class="title">Appointments</span>
+                                    </a>
+                                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-toggle"> <i class="material-icons">group-add</i>
+                  <span class="title">Partnership</span> <span class="arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                                      <a href="devfest_unical.html" class="nav-link ">
+                                        <span class="title">DEVFEST</span>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a href="dsc_unical.html" class="nav-link ">
+                                        <span class="title">DSC UNICAL</span>
+                                      </a>
+                                    </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-toggle">
+                  <i class="fa fa-headphones"></i>
+                  <span class="title">Entertainment</span>
+                  <span class="arrow"></span>
+                  <span class="label label-rouded label-menu label-danger">new</span>
+                </a>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                                    <a href="social_events.html" class="nav-link ">
+                                      <span class="title">Social Events</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="#" class="nav-link ">
+                                      <span class="title">Campus Live</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="campus_gossips.html" class="nav-link ">
+                                      <span class="title">Campus Gossips</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="fellowships.html" class="nav-link ">
+                                      <span class="title">Fellowships</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="sport_news.html" class="nav-link ">
+                                      <span class="title">Sport News</span>
+                                    </a>
+                                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-toggle"> <i class="fa fa-eye"></i>
+                  <span class="title">Visitors</span> <span class="arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                  <li class="nav-item  ">
+                                    <a href="about_us.html" class="nav-link "> <span class="title">About the Department</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item  ">
+                                    <a href="entry_info.html" class="nav-link "> <span class="title">Entry/Addmission Info</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item  ">
+                                    <a href="structure_of_programme.html" class="nav-link "> <span class="title">Structure of The Programme</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item"><a href="about_the_course.html" class="nav-link "><span class="title">About The course</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="carrers_in_csc.html" class="nav-link "> <span class="title">Careers In Computer Science</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="contact_us.html" class="nav-link "> <span class="title">Contact Us</span>
+                                    </a>
+                                  </li>
+                </ul>
+              </li>
+
+            </ul>
+        </div>
+      </div>
+			<!-- end sidebar menu -->
+			<!-- start page content -->
+			<div class="page-content-wrapper">
+				<div class="page-content">
+					<div class="page-bar">
+						<div class="page-title-breadcrumb">
+							<div class=" pull-left">
+								<div class="page-title">CS-UNICAL DEPARTMENT</div>
+							</div>
+							<ol class="breadcrumb page-breadcrumb pull-right">
+								<li><i class="fa fa-home"></i>&nbsp;<a class="parent-item"
+										href="landing_page.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+								</li>
+								<li class="active">Entry Information</li>
+							</ol>
+						</div>
+					</div>
+          <!-- add content here -->
+          <h1><strong>ENTRY INFORMATIONS</strong></h1>
+          <h3>Entry Requirements</h3>
+	<div class="entry_info"	><p>The Department of Computer Science admits three categories of students for her B. Sc. Computer Science Program.
+<ol>
+    <li> UTME Candidates: In addition to the general entry requirements approved for admission into Nigerian Universities, candidates must have passed SSCE/GCE O'Level or its equivalent at Credit level in English Language, Mathematics, Physics, plus two other Science Subjects, in addition to an acceptable pass in UTME test/screening. A credit in further Mathematics will be an advantage.</li>
+    <li> Post-Pre-degree Candidates: Students who have successfully completed the University's one year (Pre-degree Science program, are qualified to be admitted into the B. Sc. Degree program in Computer Science. In particular, qualified post-pre-degree candidates must have
+        <ul> <li>Passed all the five (5) subjects, Mathematics, English Language, Biology, Chemistry and Physics, they registered for in the Pre-degree year.</li>
+              <li>Obtained a minimum grade of "C" in the O'Level course (s) not passed at credit level in the SSCE/GCE O'Level.</li>
+              <li> Score a minimum of 15 points, or as may be fixed by the Directorate of Pre-degree.</li>
+        </ul>
+    <li> Direct Entry Candidates: Direct Entry Candidates must have
+        <ul> <li> Two A‘ Level papers in core science subjects including Mathematics.
+            <li> NCE with least a merit in Mathematics and one other science subject:</li>
+            <li> Diploma in Computer Science or Diploma in Statistics with Computer Application from University of Calabar or any other recognized University.</li>
+            <li> OND/HND with an Upper Credit in any of the following Computer Science, Engineering, Mathematics. All Direct Entry candidates must satisfy the requirements in (I) above.</li>
+</ul></li></ol>
+</p></div>
+<!---->
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="col-md-6 footer-left">
+			<h3>Information</h3>
+			<p class="para">At vero eos et accusamus et iusto odio dignissimos
+			ducimus qui blanditiis praesentium voluptatum deleniti at
+			que corrupti quos dolores et quas molestias excepturi sint
+			occaecati cupiditate non provident, similique sunt.</p>
+			<h3>Newsletter<label></label></h3>
+			<form action="#" method="post">
+				<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+				<input type="email" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div class="col-md-6 footer-right">
+			<h3>Contact Us</h3>
+			<ul class="con-icons">
+				<li><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>+123 456 7890</li>
+				<li><a href="mailto:info@example.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>info@example.com</a></li>
+			</ul>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!--//footer-->
+
+      <!-- end page content -->
+
+
+  </div>
+    <!-- end page container -->
+    <!-- start footer -->
+    <div class="page-footer">
+      <div class="page-footer-inner">  ©Copyright 2019  Unical-CS by OLLAWA
+      </div>
+      <div class="scroll-to-top" style="display: none;">
+        <i class="icon-arrow-up"></i>
+      </div>
+    </div>
+    <!-- end footer -->
+    </div>
+    <!-- start js include path -->
+    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+  	<script src="../assets/plugins/popper/popper.js"></script>
+  	<script src="../assets/plugins/jquery-blockui/jquery.blockui.min.js"></script>
+  	<script src="../assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+  	<!-- bootstrap -->
+  	<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  	<!-- Common js-->
+  	<script src="../assets/js/app.js"></script>
+  	<script src="../assets/js/layout.js"></script>
+  	<script src="../assets/js/theme-color.js"></script>
+  	<!-- Material -->
+  	<script src="../assets/plugins/material/material.min.js"></script>
+  	<script src="../assets/js/pages/material-select/getmdl-select.js"></script>
+  	<script src="../assets/plugins/material-datetimepicker/moment-with-locales.min.js"></script>
+  	<script src="../assets/plugins/material-datetimepicker/bootstrap-material-datetimepicker.js"></script>
+  	<script src="../assets/plugins/material-datetimepicker/datetimepicker.js"></script>
+  	<!-- dropzone -->
+  	<script src="../assets/plugins/dropzone/dropzone.js"></script>
+  	<script src="../assets/plugins/dropzone/dropzone-call.js"></script>
+  	<!-- end js include path -->
+  </body>
+
+
+  </html>
